@@ -21,4 +21,10 @@ public class NewOppTest {
 	{
 	System.out.println("2nd Opportunity test Script Running");
 	}
+	
+	@Test(groups= "Regression")
+	public void TC_04()
+	{
+	System.out.println("2nd Opportunity test Script Running");
+	}
 }

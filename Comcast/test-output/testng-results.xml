@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-19T10:20:15 IST" name="Suite" finished-at="2021-10-19T10:20:15 IST" duration-ms="669">
+    <groups>
+      <group name="Regression">
+        <method signature="NewOppTest.TC_01()[pri:0, instance:opportunityTest.NewOppTest@62230c58]" name="TC_01" class="opportunityTest.NewOppTest"/>
+        <method signature="NewOppTest.TC_02()[pri:0, instance:opportunityTest.NewOppTest@62230c58]" name="TC_02" class="opportunityTest.NewOppTest"/>
+        <method signature="NewOrgTest.TC_01()[pri:0, instance:organisationTest.NewOrgTest@4da4253]" name="TC_01" class="organisationTest.NewOrgTest"/>
+        <method signature="NewContactTest.TC_02()[pri:0, instance:contactTest.NewContactTest@4d02f94e]" name="TC_02" class="contactTest.NewContactTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="NewOppTest.TC_01()[pri:0, instance:opportunityTest.NewOppTest@62230c58]" name="TC_01" class="opportunityTest.NewOppTest"/>
+        <method signature="NewOppTest.TC_02()[pri:0, instance:opportunityTest.NewOppTest@62230c58]" name="TC_02" class="opportunityTest.NewOppTest"/>
+        <method signature="NewOrgTest.TC_02()[pri:0, instance:organisationTest.NewOrgTest@4da4253]" name="TC_02" class="organisationTest.NewOrgTest"/>
+        <method signature="NewContactTest.TC_01()[pri:0, instance:contactTest.NewContactTest@4d02f94e]" name="TC_01" class="contactTest.NewContactTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2021-10-19T10:20:15 IST" name="Test" finished-at="2021-10-19T10:20:15 IST" duration-ms="245">
+      <class name="organisationTest.NewOrgTest">
+        <test-method signature="TC_01()[pri:0, instance:organisationTest.NewOrgTest@4da4253]" started-at="2021-10-19T10:20:15 IST" name="TC_01" finished-at="2021-10-19T10:20:15 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method signature="TC_02()[pri:0, instance:organisationTest.NewOrgTest@4da4253]" started-at="2021-10-19T10:20:15 IST" name="TC_02" finished-at="2021-10-19T10:20:15 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02 -->
+      </class> <!-- organisationTest.NewOrgTest -->
+      <class name="opportunityTest.NewOppTest">
+        <test-method signature="TC_01()[pri:0, instance:opportunityTest.NewOppTest@62230c58]" started-at="2021-10-19T10:20:15 IST" name="TC_01" finished-at="2021-10-19T10:20:15 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method signature="TC_02()[pri:0, instance:opportunityTest.NewOppTest@62230c58]" started-at="2021-10-19T10:20:15 IST" name="TC_02" finished-at="2021-10-19T10:20:15 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02 -->
+      </class> <!-- opportunityTest.NewOppTest -->
+    </test> <!-- Test -->
+    <test started-at="2021-10-19T10:20:15 IST" name="Test1" finished-at="2021-10-19T10:20:15 IST" duration-ms="22">
+      <class name="contactTest.NewContactTest">
+        <test-method signature="TC_01()[pri:0, instance:contactTest.NewContactTest@4d02f94e]" started-at="2021-10-19T10:20:15 IST" name="TC_01" finished-at="2021-10-19T10:20:15 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method signature="TC_02()[pri:0, instance:contactTest.NewContactTest@4d02f94e]" started-at="2021-10-19T10:20:15 IST" name="TC_02" finished-at="2021-10-19T10:20:15 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02 -->
+      </class> <!-- contactTest.NewContactTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
